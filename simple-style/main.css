@@ -10,13 +10,17 @@ table,th,tr,td{border:1px solid gray}
 th,td{padding:1px 3px}
 a{text-decoration:none;color:#2a7ae2}
 a:visited{color:#1756a9}
-a:hover{text-decoration:underline;color:red}
+a:hover{text-decoration:underline;color:black}
 code{padding:1px 2px}
 pre{border:1px solid #ccc;background-color:#f0f0f0;padding:5px}
-.wrapper{width:100%;max-width:960px;margin:0 auto}
-.site-header a{color:gray}
-.site-header a:hover{color:red}
 .site-header{border-bottom:1px solid #ddd;margin-bottom:5px;padding-bottom:5px}
+.site-footer{border-top:1px solid #ddd;margin-top:5px;padding-top:5px;padding-bottom:10px}
+.wrapper{width:100%;max-width:960px;margin:0 auto}
+.site-title h1{font-size:160%;padding:0}
+.site-title h2{font-size:100%;padding:0}
+.site-title a{text-decoration:none;color:#666;margin:0;padding:0}
+.site-nav a{color:gray}
+.site-nav a:hover{color:red}
 .site-nav{text-align:right}
 .nav-item{padding-right:10px}
 .post-time{color:gray}
@@ -27,4 +31,3 @@ pre{border:1px solid #ccc;background-color:#f0f0f0;padding:5px}
 .post-nav-prev{display:block;width:50%;float:left;text-align:left}
 .post-nav-next{display:block;width:50%;float:right;text-align:right}
 .copy{text-align:center}
-.site-footer{border-top:1px solid #ddd;margin-top:5px;padding-top:5px;padding-bottom:10px}
