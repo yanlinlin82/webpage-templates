@@ -1,6 +1,6 @@
 # My Webpage Templates
 
-Copyright, 2019 Linlin Yan. Licensed by [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
+Copyright (c) 2019 Linlin Yan. Licensed under [CC-BY-4.0](LICENSE)
 
 ## Pages
 
