@@ -4,4 +4,4 @@ Copyright, 2019 Linlin Yan. Licensed by [CC-BY-4.0](https://creativecommons.org/
 
 ## Pages
 
-* [Simple Style](simple-style/index.html)
+* Simple Style ([Demo](https://yanlinlin82.github.io/webpage-templates/simple-style/index.html), [Source](simple-style/index.html))
