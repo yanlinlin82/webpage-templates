@@ -54,11 +54,6 @@
         align-items: flex-start;
       }
 
-      header > div, nav {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
       nav a {
         margin-left: 0;
         margin-top: 5px;
@@ -72,11 +67,12 @@
       margin-top: 20px;
     }
 
-    .content {
-      margin-top: 20px;
-    }
-
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       color: var(--primary-color);
     }
 
@@ -94,9 +90,11 @@
       width: 100%;
       margin-top: 20px;
       border-collapse: collapse;
+      font-size: 0.85rem;
     }
 
-    th, td {
+    th,
+    td {
       text-align: left;
       padding: 8px;
       border: 1px solid var(--border-color);
@@ -107,10 +105,25 @@
       border: 1px solid var(--border-color);
       display: block;
       margin-top: 10px;
+      font-size: 0.85rem;
     }
 
     code {
       display: inline-block;
+    }
+
+    .meta {
+      padding: 0 20px;
+      color: #666;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .content {
+      margin-top: 20px;
     }
   </style>
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -134,11 +147,11 @@
       <h1>Article Title</h1>
     </div>
     <div>
-      <div><span>2019-12-03 11:02:03</span></div>
-      <div>
-        <span>#Tag-1</a></span>
-        <span>#Tag-2</a></span>
-        <span>#Tag-3</a></span>
+      <div class="meta"><span>2019-12-03 11:02:03</span></div>
+      <div class="meta">
+        <span class="tag"><a href="#">#Tag-1</a></span>
+        <span class="tag"><a href="#">#Tag-2</a></span>
+        <span class="tag"><a href="#">#Tag-3</a></span>
       </div>
     </div>
     <div>
